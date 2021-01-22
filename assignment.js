@@ -1,7 +1,7 @@
-// github.com/ashiksh/js-assignment
+// https://github.com/ashiksh/js-assignment
 
 // Kilometer to meter converetr
-https: function kilometerToMeter(km) {
+function kilometerToMeter(km) {
   var meter;
   // check if kilometer is positve and not a string
   if (km < 0 || typeof km != "number") {
